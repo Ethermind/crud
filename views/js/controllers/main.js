@@ -16,6 +16,7 @@
         self.edit = edit;
         self.showForm = false;
         self.load = load;
+        self.reset = reset;
         self.load();
         
         function load(){
@@ -56,6 +57,11 @@
         function edit(obj){
             self.obj = obj;
             self.showForm = true;
+        };
+        
+        function reset(){
+            self.title = null;
+            self.year = null;
         };
         
         function getEmptyObject(){

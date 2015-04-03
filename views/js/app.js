@@ -1,6 +1,6 @@
 (function(){
 	"use strict";
     
-    angular.module('ethermind',['ngResource']);
+    angular.module('ethermind',['ngResource', 'ui.bootstrap']);
     
 })();
